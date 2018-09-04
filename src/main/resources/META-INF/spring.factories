@@ -1,1 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration = infra.Conf
+org.springframework.context.ApplicationContextInitializer = infra.ProfileCheckerApplicationContextInitializer
+org.springframework.boot.env.EnvironmentPostProcessor=infra.AutoProfileDetectorEnvironmentPostProcessor
